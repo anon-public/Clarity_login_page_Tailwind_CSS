@@ -1,0 +1,25 @@
+{
+  "name": "clarity_login_page_tailwind_css",
+  "version": "1.0.0",
+  "description": "This is a sample Login page developed by using Tailwind CSS.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anon-public/Clarity_login_page_Tailwind_CSS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/anon-public/Clarity_login_page_Tailwind_CSS/issues"
+  },
+  "homepage": "https://github.com/anon-public/Clarity_login_page_Tailwind_CSS#readme",
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.1.18",
+    "tailwindcss": "^4.1.18"
+  }
+}
