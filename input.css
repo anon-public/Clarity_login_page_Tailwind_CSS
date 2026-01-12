@@ -3,8 +3,11 @@
 @tailwind utilities;
 
 body{
-    background-color: #000000;
-    color: #ffffff;
+    background-color: #ffffff;
+    color: #000000;
 }
-
+p{
+    padding: 8px;
+    text-align: center;
+}
 
