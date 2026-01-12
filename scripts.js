@@ -5,6 +5,8 @@ let TGsign = document.getElementById("TGsign");
 let signContent = document.getElementById("signcontent");
 let loginContent = document.getElementById("logincontent");
 
+
+
 const active = "bg-purple-500";
 const inactive = "bg-slate-300";
 
@@ -27,4 +29,28 @@ TGsign.addEventListener("click", e=>{
     TGsign.classList.remove(inactive);
     TGlogin.classList.add(inactive);
     TGlogin.classList.remove(active);
+})
+
+let dbtn = document.getElementById("dbtn");
+let lightbtn = document.getElementById("lightbtn");
+let right  = document.getElementById("rt");
+
+
+dbtn.addEventListener("click", e=>{
+    document.body.style.backgroundColor = "#0F172A";
+    document.body.style.color  = "#F1F5F9"; 
+    right.style.backgroundColor = "#334155";
+    dbtn.style.display = "none";
+    lightbtn.style.display = "block";
+    TGlogin.style.color = "black";
+    TGsign.style.color = "black";
+})
+
+
+lightbtn.addEventListener("click",e=>{
+    document.body.style.backgroundColor ="white";
+    document.body.style.color = "black";
+    right.style.backgroundColor = " #F1F5F9";
+    lightbtn.style.display = "none";
+    dbtn.style.display = "block";
 })

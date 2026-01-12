@@ -6,8 +6,18 @@ body{
     background-color: #ffffff;
     color: #000000;
 }
-p{
+p{  
     padding: 8px;
     text-align: center;
+}
+h1{
+    @apply text-4xl bg-gradient-to-t from-purple-400 to-purple-950 bg-clip-text text-transparent;
+}
+
+input{
+    @apply pl-3 border-2 border-purple-200 rounded-sm transition-all duration-100  ease-linear;
+}
+.btn{
+    @apply pt-1 max-h-8 bg-purple-400 text-white font-bold p-4 rounded-lg hover:bg-slate-200 hover:text-purple-500 hover:border-2 hover:border-purple-500 hover:font-bold;
 }
 

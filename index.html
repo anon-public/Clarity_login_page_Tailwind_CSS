@@ -7,10 +7,12 @@
     <link href="/Pixel.ico " rel="icon" type="image/favicon">
     <link href="/input.css" rel="stylesheet">
 </head>
-<body>
+<body class="transition-colors duration-200 ease-in-out">
     <header>
-        <nav class=" inline-block bg-blue-500 top-12 justify-end w-[12vw]">
-            <button type="submit">Dark Mode</button>
+        <nav class="bg-blue-200 block top-8 right-[8%] fixed rounded-xl p-2 ">
+            <button id ="dbtn" class="block " type="submit">Dark Mode</button>
+             <button id ="lightbtn" class="hidden text-slate-900" type="submit">Light Mode</button>
+        </nav>
         </nav>
     </header> 
     <div class="container flex mt-[8rem] mx-auto justify-center gap-24 ">
@@ -19,7 +21,7 @@
             <img src="/PIXEL WORLD-fotor-bg-remover-20250919232239.png" alt="logo" class="w-12 h-12" >
             <h1> Clarity </h1>
         </div>
-        <div class="right  flex flex-col  gap-1 bg-slate-100 rounded-lg p-4 items-center h-[16rem]">
+        <div id="rt" class="right  flex flex-col  gap-1 bg-slate-100 rounded-lg p-4 items-center h-[16rem] border-separate">
             <div class="toggle flex bg-slate-300 text-center p-1  m-1 rounded-lg w-17">
                 <button class="bg-purple-500  rounded-xl p-3 transition-colors duration-300"  id="TGlogin">Login</button>
                 <button class=" rounded-xl p-3  transition-colors duration-300" id="TGsign">Sign Up</button>
@@ -29,7 +31,7 @@
                     <form action="/login" method="post">
                         <p><input type="text" name="email" placeholder="Email" required></p>
                        <p> <input type="password" name="password" placeholder="Password" required></p>
-                        <p><button type="submit">Login</button></p>
+                        <p><button class="btn" type="Submit">Login</button></p>
                     </form>
                 </div>
                 <div id="signcontent" class="hidden ">
@@ -37,7 +39,7 @@
                         <p><input  type="text" name="username" placeholder="Username" required></p>
                         <p><input type="text" name="email" placeholder="Email" required></p>
                         <p><input type="password" name="password" placeholder="Password" required></p>
-                        <p><button type="submit">Login</button></p>
+                        <p><button class="btn" type="submit">Sign Up</button></p>
                     </form>
                 </div>
         </div>
