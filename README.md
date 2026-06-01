@@ -6,9 +6,8 @@ This is a sample Login page developed by using Tailwind CSS.
   <li>Demonstrate basic principals of Frontend Logic.</li>
 </ol>
 
-<div align="center> 
-<img width="1386" height="686" alt="image" src="https://github.com/user-attachments/assets/838c78bd-ac21-40dd-a6a8-df95340fde2e" />
-
+<div align="center"> 
+<img width="1237" height="748" alt="image" src="https://github.com/user-attachments/assets/e9e3acbd-8671-4ba6-9a9f-be950c7bd263" />
 
 <i> Preview of Login Page </i>
 
